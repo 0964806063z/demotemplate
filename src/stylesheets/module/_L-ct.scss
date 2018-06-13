@@ -1,37 +1,44 @@
+.q{
+  z-index: 1;
+  position: absolute;
+  margin-top: 150px;
+  width: 100%;
+}
+.h{
+  font-family: Montserrat;
+  font-size: 65px;
+  color: rgba(171, 181, 196, 0.15);
+  text-align: left;
+  vertical-align: middle;
+}
 #Lct{
+  position: relative;
   text-align: center;
-  padding: 0 100px 50px 100px;
   box-shadow: 2.1px 2.1px 42px 0 rgba(173, 174, 174, 0.16);
-  img{
+  z-index: 200;
+  background: #fff;
+  .col-md-4{
+    padding: 30px 0 30px 0;
+  }
+  .images{
     width: 187.5px;
     height: 248.5px;
   }
   h4{
     font-size: 15.5px;
     font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.29;
     letter-spacing: 0.8px;
     text-align: center;
     color: #2c2c34;
   }
   P{
+    width: 222px;
     font-size: 15px;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.33;
-    letter-spacing: normal;
     text-align: center;
     color: #8f97a3;
-  }
-  h1{
-    font-family: Montserrat;
-    font-size: 65px;
-    color: rgba(171, 181, 196, 0.15);
-  }
-  .col-md-4{
-    padding: 20px 0 20px 0;
+    margin: auto;
   }
   a{
     color: #d35050;
