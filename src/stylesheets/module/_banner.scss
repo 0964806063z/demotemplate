@@ -1,0 +1,54 @@
+#banner{
+  height: 380px;
+  background-image: url('../images/bannerx0x0x2.jpg');
+  position: relative;
+  .backgroud{
+    height: 100%;
+    background: linear-gradient(to right, #0e2f43, #0e2f43, Transparent);
+  }
+  .txt-banner{
+    max-width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    .text-banner{
+      margin-left: 10px;
+      margin-top: 10%;
+    }
+    h3{
+      width: 122px;
+      height: 33px;
+      font-family: Montserrat;
+      font-size: 45px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.22;
+      letter-spacing: 1.1px;
+      text-align: left;
+      color: #b2ce54;
+    }
+    p{
+      padding-top: 20px;
+      width: 399px;
+      height: 52px;
+      font-family: Montserrat;
+      font-size: 17px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.63;
+      letter-spacing: normal;
+      text-align: left;
+      color: #abb5c4;
+    }
+  }
+  .Green-Line {
+    width: 12px;
+    height: 225px;
+    background-color: #b2ce54;
+    position: relative;
+    float: left;
+  }
+}

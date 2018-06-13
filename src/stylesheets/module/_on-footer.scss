@@ -1,0 +1,40 @@
+.on-footer{
+  margin-bottom: -7%;
+  .col-md-10{
+    text-align: center;
+    background-image: url("../images/favicon.png");
+    background-size: cover;
+    height: 387.5px;
+    background-color: #b2ce54;
+
+  }
+  .txt{
+    margin-top: 10%;
+    h3{
+      color: #fff;
+      font-size: 24px;
+    }
+    .button1{
+      border-radius: 0%;
+      mix-blend-mode: undefined;
+      width: 268px;
+      height: 57px;
+      background-color: #86c1e8;
+      color: #fff;
+      &:hover{
+        box-shadow: -6px 8px 48.8px 17.2px rgba(58, 58, 58, 0.21);
+      }
+    }
+    .button2{
+      mix-blend-mode: undefined;
+      border-radius: 0%;
+      width: 268px;
+      height: 57px;
+      background-color: #fff;
+      color: #86c1e8;
+      &:hover{
+        box-shadow: -6px 8px 48.8px 17.2px rgba(58, 58, 58, 0.21);
+      }
+    }
+  }
+}

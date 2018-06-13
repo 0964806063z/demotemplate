@@ -1,0 +1,61 @@
+#contactForm{
+  background-color: #b2ce54;
+  padding: 20px;
+  margin-top: -50%;
+  input{
+    color: #fff;
+    border-radius: 0%;
+  }
+  label{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fefdfd;
+  }
+  button{
+    margin-top: 20px;
+    border-radius: 0%;
+    background-color: #d35050;
+    border: solid 1.5px #d35050;
+  }
+}
+h4{
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #0e2f43;
+}
+p{
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8f97a3;
+}
+.icon{
+  float: left;
+  height: 100%;
+  position: relative;
+  color: #b2ce54;
+  margin: 2px;
+}
+.btn{
+  border-radius: 0%;
+  border: #d35050 solid 1.5px;
+  background-color: none;
+  color: #d35050;
+}
